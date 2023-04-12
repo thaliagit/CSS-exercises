@@ -1,0 +1,40 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(195, 169, 234, 0.51);
+  color: rgb(85, 121, 149);
+  width: 300px;
+  border: 1px solid rgba(0, 0, 0, 0.241);
+  border-radius: 1%;
+}
+
+.img-container {
+    height: 225px;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 1%;
+    border-top-right-radius: 1%;
+    }
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-section {
+  padding: 12px 12px;
+  border: 1px solid rgba(0, 0, 0, 0.241);
+}
+
+
+
+.links {
+  padding: 12px 12px;
+  border-right: 1px solid rgba(0, 0, 0, 0.241);
+  border-left: 1px solid rgba(0, 0, 0, 0.241);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.241);
+}
