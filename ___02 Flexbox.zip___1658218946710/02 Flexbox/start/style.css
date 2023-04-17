@@ -4,7 +4,7 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style-type: none;
-  font-size: 1.2rem;
+  font-size: 1.45rem;
   font-family: Arial, Helvetica, sans-serif;
   color: #2b2b2b;
 }
@@ -19,7 +19,9 @@
   align-items: center;
 }
 .links-container {
+  padding-top: 20px;
   width: 100%;
+  flex: 1;
 }
 
 a:hover {
@@ -47,4 +49,19 @@ img {
     justify-content: center;
     align-items: center;
     gap: 10px;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgb(156, 106, 97);
+}
+
+.logo-container > .logo {
+  font-size: 1rem;
 }
